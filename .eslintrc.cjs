@@ -34,12 +34,18 @@ module.exports = {
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', 'prettier'],
+  plugins: [
+    // 'react',
+    'react-refresh',
+    'prettier'
+  ],
   rules: {
+    // 'prettier/prettier': 'error',
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     'prettier/prettier': 'error',
+    // '@typescript-eslint/explicit-module-boundary-types': 'off',
     "linebreak-style": ["off"]
   },
 };

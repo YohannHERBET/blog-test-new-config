@@ -1,7 +1,7 @@
-export const Header = () => {
+export const Header: React.FC = () => {
   return (
-    <header className="flex h-16 items-center justify-center border-b px-4 md:px-6">
-      <nav className="flex items-center gap-4 bg-slate-700/10 p-1 sm:gap-6">
+    <header className="flex h-16 items-center justify-center border-b p-5 px-4 md:px-6">
+      <nav className="flex items-center gap-4 rounded-lg p-1 sm:gap-6">
         <a className="nav-link" href="#">
           Home
         </a>
